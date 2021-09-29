@@ -19,6 +19,6 @@ How I do this:
 
 main:
       dice_gen(w1, 5, b4)
-      ;w1 is where we store the original random number, 5 is for...
+      ;w1 is where we store the original random number, 5 is for a number 0 - 5 (including 0 and 5), and b4 is for the new number
       goto main
 ```
