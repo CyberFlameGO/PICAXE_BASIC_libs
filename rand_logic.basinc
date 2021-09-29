@@ -1,0 +1,9 @@
+#region "Value generator macro"
+;We use the macro directive which seems to be BASIC's implementation of functions
+#macro dice_gen( rand_w_var, mod_val, dice_var ) 
+	Symbol rand_var = rand_w_var
+	random rand_var
+	Symbol dice_out = dice_var
+	let dice_out = rand_w_var // mod_val
+#endmacro
+#endregion
