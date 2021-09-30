@@ -19,8 +19,8 @@ I have a file called `main.bas` in working directory `/Users/cyberflame/Document
 ;The ./ signifies that the location I'm referencing is relative to where this file's location is
 
 main:
-      dice_gen(w1, 5, b4)
-      ;w1 is where we store the original random number, 5 is for a number 0 - 5 (including 0 and 5), and b4 is for the new number
+      dice_gen(w1, 6, b4)
+      ;w1 is where we store the original random number, 6 is for a number 0 - 5 (including 0), and b4 is for the new number
       goto main
 ```
 ## Confused?
