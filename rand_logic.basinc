@@ -22,6 +22,9 @@
 	Symbol rand_var = rand_w_var
 	random rand_var
 	Symbol dice_out = dice_var
-	let dice_out = rand_w_var // mod_val
+	`You can use '//' instead of '%' for modulus division here 
+	`but '%' is used more often in other languages, 
+	'so for consistency is the one I'm using here.
+	let dice_out = rand_w_var % mod_val
 #endmacro
 #endregion
