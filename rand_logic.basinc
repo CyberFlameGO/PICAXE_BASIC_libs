@@ -19,12 +19,10 @@
 #region "Value generator macro"
 ;We use the macro preprocessor directive here
 #macro dice_gen( rand_w_var, mod_val, dice_var ) 
-	Symbol rand_var = rand_w_var
-	random rand_var
-	Symbol dice_out = dice_var
+	random rand_w_var
 	`You can use '//' instead of '%' for modulus division here 
 	`but '%' is used more often in other languages, 
 	'so for consistency is the one I'm using here.
-	let dice_out = rand_w_var % mod_val
+	let dice_var = rand_w_var % mod_val
 #endmacro
 #endregion
