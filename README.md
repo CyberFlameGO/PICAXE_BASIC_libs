@@ -1,6 +1,7 @@
 # My PICAXE BASIC headerfile libraries
 
-## Instructions for using this
+## Documentation and instructions for using `rand_logic.basinc` (the only library here right now)
+###### I'll separate the documentation for each library into their own directories (as well as moving the libraries into those directories) when there's more than one library here
 If your project __doesn't__ use Git, clone the repository with `git clone https://github.com/CyberFlameGO/PICAXE_BASIC_libs.git` (HTTPS cloning) or `git clone git@github.com:CyberFlameGO/PICAXE_BASIC_libs.git` (SSH cloning) in your project's directory.
 If your project *does* use Git, add this repository as a submodule with `git submodule add https://github.com/CyberFlameGO/PICAXE_BASIC_libs.git` (HTTPS) or `git submodule add git@github.com:CyberFlameGO/PICAXE_BASIC_libs.git` (SSH) in your project root directory.
 
@@ -20,7 +21,7 @@ I have a file called `main.bas` in working directory `/Users/cyberflame/Document
 
 main:
       dice_gen(w1, 6, b4)
-      ;w1 is where we store the original random number, 6 is for a number 0 - 5 (including 0), and b4 is for the new number
+      ;w1 is where we store the original random number, 6 is for a number including and between 0 - 5, and b4 is for the new number
       goto main
 ```
 ## Confused?
