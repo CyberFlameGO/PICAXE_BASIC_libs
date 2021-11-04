@@ -20,7 +20,7 @@ I have a file called `main.bas` in working directory `/Users/cyberflame/Document
 
 main:
       dice_gen(w1, 6, b4)
-      ;w1 is where we store the original random number, 6 is for a number 0 - 5 (including 0), and b4 is for the new number
+      ;w1 is where we store the original random number, 6 is for a number including and between 0 - 5, and b4 is for the new number
       goto main
 ```
 ## Confused?
